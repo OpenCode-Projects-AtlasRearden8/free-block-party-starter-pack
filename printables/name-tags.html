@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Name Tags — Free Block Party Starter Pack</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .tag-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .tag {
+    border: 1.5px solid var(--line);
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 90px;
+    text-align: center;
+  }
+  .tag .tag-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #999;
+  }
+  .tag .tagline {
+    display: block;
+    border-bottom: 1px dotted #b7a99a;
+    min-height: 1.6em;
+    margin: 10px 4px 4px;
+  }
+  .tag .tag-sub { font-size: 0.75rem; color: #999; font-family: Arial, Helvetica, sans-serif; }
+  @media print { .tag { page-break-inside: avoid; } }
+</style>
+</head>
+<body>
+
+<div class="page no-print-hint">
+<span class="hint">Twelve name tags per page. Type names in the browser before printing, or leave blank and use markers on party day. Best on adhesive labels or card stock cut with scissors (cousin-safe cuts acceptable).</span>
+<button class="printbtn" onclick="window.print()">Print these tags</button>
+
+<h1>Hello, my name is…</h1>
+<p class="tagline">Name tags — because "the guy from the tan house" shouldn't need one more year.</p>
+</div>
+
+<div class="page">
+<div class="tag-grid">
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">I live at</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">born to host</span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">ask me about the grill</span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">new here — be gentle</span></div>
+
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">dish champion</span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">cleanup crew</span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">I brought ice</span></div>
+  <div class="tag"><span class="tag-title">Hey kid</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">future mayor</span></div>
+
+  <div class="tag"><span class="tag-title">Hey kid</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">game master</span></div>
+  <div class="tag"><span class="tag-title">Hey kid</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub">sock race "(time) champion"</span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub"> </span></div>
+  <div class="tag"><span class="tag-title">Hello neighbor</span><span class="tagline editable" contenteditable="true" spellcheck="false"></span><span class="tag-sub"> </span></div>
+</div>
+
+<p class="footer-note">Free Block Party Starter Pack · a freebie from Asdale Dynamics, LLC · print freely, no tracking</p>
+</div>
+
+</body>
+</html>
